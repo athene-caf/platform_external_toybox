@@ -294,6 +294,8 @@
 
 #define HELP_route "usage: route [-ne] [-A inet[6]] / [add|del]\n\nDisplay/Edit kernel routing tables.\n\n-n	no name lookups\n-e	display other/more information\n-A	inet{6} Select Address Family\n\nreject mod dyn reinstate metric netmask gw mss window irtt dev\n\n"
 
+#define HELP_resize "usage: resize\n\nreset terminal to maximum width and height\n\n"
+
 #define HELP_ping "usage: ping [OPTIONS] HOST\n\nCheck network connectivity by sending packets to a host and reporting\nits response.\n\nSend ICMP ECHO_REQUEST packets to ipv4 or ipv6 addresses and prints each\necho it receives back, with round trip time.\n\nOptions:\n-4, -6      Force IPv4 or IPv6\n-c CNT      Send CNT many packets\n-I IFACE/IP Source interface or address\n-q          Quiet, only displays output at start and when finished\n-s SIZE     Packet SIZE in bytes (default 56)\n-t TTL      Set Time (number of hops) To Live\n-W SEC      Seconds to wait for response after all packets sent (default 10)\n-w SEC      Exit after this many seconds\n\n"
 
 #define HELP_deallocvt "usage: deallocvt [N]\n\nDeallocate unused virtual terminal /dev/ttyN, or all unused consoles.\n\n"
